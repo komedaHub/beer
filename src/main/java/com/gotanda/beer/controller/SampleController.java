@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class SampleController {
-    @RequestMapping("/sample2")
+    @RequestMapping("/sample")
     public String sample() {
         return "sample";
     }
